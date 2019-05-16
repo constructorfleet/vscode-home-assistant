@@ -6,6 +6,13 @@
 
 </h1>
 
+# Building
+1. Install nvm: `brew install nvm` and follow the instructions
+
+2. Install Node.js 12.0: `nvm install 12.0`
+
+3. Build the extension: `./build.sh`
+
 # Getting started
       
 1. [Get/Install from the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=keesschollaart.vscode-home-assistant)
