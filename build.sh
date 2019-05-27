@@ -14,6 +14,8 @@ then
   nvm install 12.0
 fi
 
+npm install -g vsce
+
 npm install
 npm run compile
 vsce package
