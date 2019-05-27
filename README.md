@@ -7,17 +7,22 @@
 </h1>
 
 # Building
-1. Install nvm: `brew install nvm` and follow the instructions
 
-2. Install Node.js 12.0: `nvm install 12.0`
+Run `./build.sh`
 
-3. Build the extension: `./build.sh`
+This will install `nvm` if it isn't already, as well as use NodeJS v12.0 (it will install if not present).
+
+The output of this script is a `vsix` file in the project root directory.
 
 # Getting started
       
-1. [Get/Install from the VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=keesschollaart.vscode-home-assistant)
+1. Open the Extensions settings in VSCode
 
-2. Make sure the Language is set to 'Home Assistant' using the language picker:
+2. On the left pane, click the ellipsis icon
+
+3. Select Install from VSIX and locate the `.vsix` file created by the build script.
+
+4. Make sure the Language is set to 'Home Assistant' using the language picker:
 
     <img src="https://raw.githubusercontent.com/keesschollaart81/vscode-home-assistant/dev/assets/select_language.png" width="250"/>
 
@@ -33,7 +38,7 @@
     
     [The VS Code docs](https://code.visualstudio.com/docs/languages/overview#_changing-the-language-for-the-selected-file) also explain how to set the 'Home Assistant' language as default for '.yaml' or for a workspace (via a settings file).
 
-3. Configure the connection to Home Assistant (more info in the [Configuration section below](#Configuration))
+5. Configure the connection to Home Assistant (more info in the [Configuration section below](#Configuration))
 
 # Features
 
